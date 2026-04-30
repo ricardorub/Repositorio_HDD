@@ -13,5 +13,3 @@ class Estudiante(Persona):
 
 # estudiante1 = Estudiante("Sandra Villar", 22, "Python")
 # print(estudiante1)
-
-Modificación realizada por programador2.
