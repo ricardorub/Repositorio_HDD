@@ -2,7 +2,7 @@ class Persona:
     # _nombre = ""
     # _edad = 0
 
-    # protegemos el atributo edad x para que solo 
+    # protegemos el atributo edad para que solo 
     # se pueda modificar a través de métodos de 
     # la clase.
     @property
@@ -12,7 +12,7 @@ class Persona:
     @nombre.setter
     def nombre(self, valor):
         if len(valor) > 0:
-            self.__nombre = valor
+            self.__nombre = 
         else:
             raise ValueError("Nombre no válido")
 
@@ -29,8 +29,8 @@ class Persona:
 
     # constructor
     def __init__(self, nombre, edad):
-        self.__nombre = edad
-        self.__edad = nombre
+        self.__nombre = nombre
+        self.__edad = edad
 
     def __str__(self):
         return f"{self.__nombre} ({self.__edad})"
