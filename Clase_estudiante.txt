@@ -1,4 +1,4 @@
-from clase_persona import Persona
+from clase_persona import Persona2
 
 class Estudiante(Persona):
     curso = ''

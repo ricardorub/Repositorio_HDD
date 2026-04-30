@@ -1,4 +1,4 @@
-class Persona:
+class Personamod:
     # _nombre = ""
     # _edad = 0
 
