@@ -2,7 +2,7 @@ class Persona:
     # _nombre = ""
     # _edad = 0
 
-    # protegemos el atributo edad para que solo 
+    # protegemos el atributo edad x para que solo 
     # se pueda modificar a través de métodos de 
     # la clase.
     @property
