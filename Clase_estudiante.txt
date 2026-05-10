@@ -11,5 +11,5 @@ class Estudiante(Persona):
     def __str__(self):
         return f"{super().__str__()} - {self.curso}- {self.universidad}"
 
-# estudiante1 = Estudiante("Ra l Ortiz", 45, "R Studio")
+# estudiante1 = Estudiante("Pedro Delgado", 25, "R Studio")
 Hola
